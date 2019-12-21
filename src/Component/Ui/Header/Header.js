@@ -10,12 +10,7 @@ const Header = () => {
                     <NavItem>
                         <NavLink tag={RouterNavLink} to="/add">add quote</NavLink>
                     </NavItem>
-                    <NavItem>
-                        <NavLink tag={RouterNavLink} to="/About">About</NavLink>
-                    </NavItem>
-                      <NavItem>
-                        <NavLink tag={RouterNavLink} to="/contact">contact</NavLink>
-                    </NavItem>
+
 
                 </Nav>
 

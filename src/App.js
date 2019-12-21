@@ -18,7 +18,6 @@ class App extends Component {
                         <Route path="/categories/:name"  component={Central}/>
                         <Route path="/edit/:id" component={Edit}/>
                         <Route path="/add" component={Add} />
-                        {/*<Route path="/remove/:id" component={Central}/>*/}
                         <Route render={() => <h1>Not a found</h1>}/>
                     </Switch>
 
